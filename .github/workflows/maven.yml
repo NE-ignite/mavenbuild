@@ -34,4 +34,4 @@ jobs:
     - name: show the .jar file
       run: |
         ls -l
-        ls -R .\target
+        ls -R ./target
