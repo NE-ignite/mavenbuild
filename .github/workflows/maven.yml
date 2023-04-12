@@ -32,4 +32,6 @@ jobs:
       run: mvn -B package --file pom.xml
       
     - name: show the .jar file
-      run: ls -l
+      run: |
+        ls -l
+        ls -R .\target
