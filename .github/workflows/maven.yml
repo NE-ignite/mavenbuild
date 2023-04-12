@@ -30,3 +30,6 @@ jobs:
         
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+      
+    - name: show the .jar file
+      run: ls -l
